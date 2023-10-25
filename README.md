@@ -9,7 +9,7 @@ You will use all HTML/CSS/Accessibility/Responsive design/Bootstrap knowledges t
 
 <p>Here the final result:</p>
 
-<img src="../images/final_result.png" alt="final_result">
+<img src="/images/final_result.png" alt="final_result">
 
 <h3>Requirements</h3>
 
@@ -37,8 +37,8 @@ You will use all HTML/CSS/Accessibility/Responsive design/Bootstrap knowledges t
 
 <h2 class="gap">Tasks</h2>
 
-    <div data-role="task21834" data-position="1" id="task-num-0">
-      <div class="panel panel-default task-card " id="task-21834">
+ <div data-role="task21834" data-position="1" id="task-num-0">
+<div class="panel panel-default task-card " id="task-21834">
 
 <span id="user_id" data-id="6138"></span>
 
@@ -46,22 +46,15 @@ You will use all HTML/CSS/Accessibility/Responsive design/Bootstrap knowledges t
     <h3 class="panel-title">
       0. Read and be familiar with Figma
     </h3>
-
-    <div>
-        <span class="label label-info">
-          mandatory
-        </span>
-    </div>
-
   </div>
 
   <div class="panel-body">
-    <span id="user_id" data-id="6138"></span>
+   <span id="user_id" data-id="6138"></span>
 
-    <!-- Progress vs Score -->
+  <!-- Progress vs Score -->
 
-    <!-- Task Body -->
-    <p>Create an account in <a href="/rltoken/aEsDc4cctiiefbn0cUHL_w" title="Figma" target="_blank">Figma</a> and open these files:</p>
+  <!-- Task Body -->
+  <p>Create an account in <a href="/rltoken/aEsDc4cctiiefbn0cUHL_w" title="Figma" target="_blank">Figma</a> and open these files:</p>
 
 <ul>
 <li><a href="https://www.figma.com/file/hcxMqRWjdj06jHycRkbzOf/Homepage?node-id=0%3A1&mode=dev" title="Homepage" target="_blank">Homepage</a> - <a href="/rltoken/l7gkLvQ1xtYRyB_On5lZ4Q" title="fig file" target="_blank">fig file</a></li>
