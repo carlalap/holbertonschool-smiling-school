@@ -38,6 +38,7 @@ header {
     border-bottom:#C271FF!important;
     border-color: #C271FF!important;
     font-size: 14px;
+
 }
 
 .btn:hover, .btn:active {
@@ -134,3 +135,22 @@ button hover/active: opacity: 0.9*/
         font-size: 1.1rem;
     }
 }
+
+/*** --------- Carousel of quotes ------- ***/
+
+    .bg-violet {
+        background-color: #c271ff!important;
+    }
+    
+    .carousel-item {
+        padding-right: 100px;
+        padding-left: 100px;
+      }
+    
+    img.circle-thumb {
+        width: 150px;
+        height: 150px;
+    }
+
+/*** ------   ------- ***/
+
