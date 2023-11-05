@@ -1,0 +1,136 @@
+
+/* Fonts */
+
+* {
+    font-family: 'Source Sans Pro'!important;
+}
+
+/* header section */
+
+header {
+    background-image: url("./images/pic_1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  header a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    color: #c371ff!important;
+}
+
+
+.logo {
+    width: auto;
+    height: 30px;
+}
+
+.nav-item {
+    font-size: 12px!important;
+}
+
+
+/* hero section */
+
+.btn {
+    background-color: #C271FF!important;
+    border-bottom:#C271FF!important;
+    border-color: #C271FF!important;
+    font-size: 14px;
+}
+
+.btn:hover, .btn:active {
+    background-color: #C271FF!important;
+    border-color: #C271FF!important;
+    opacity: 0.8;
+}
+
+/* Pros section */
+
+.pros-section {
+    margin-top: 8rem;
+}
+
+.text-violet {
+    color: #c271ff;
+}
+
+.pros {
+    margin: 5rem 0;
+}
+
+.pros img {
+    width: 75%!important;
+    height: auto;
+}
+
+/* --- nav tab ----*/
+
+#nav-menu-btn {
+    background-color: white;
+    width: 13px;
+    height: 2px;
+    position: absolute;
+    top: 3rem;   
+}
+
+#nav-menu-btn::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    top: -0.5rem;
+}
+
+#nav-menu-btn::after {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    top: 0.4rem;
+}
+
+/*Web pages must switch to the tablet version when the screen width is 768px
+Web pages must switch to the mobile version when the screen width is 576px
+button hover/active: opacity: 0.9*/
+
+@media (max-width: 1200px) {
+    header {
+        background-position: 50% 50%;
+    }
+
+    .pros img {
+        width: 75%!important;
+        height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    header {
+        background-position: 45% 50%;
+    }
+
+    .hamburger {
+        max-height: 0px;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+    }
+
+    #nav-toggle:checked ~ .hamburger {
+        max-height: 100vh;
+        overflow: hidden;
+    }
+
+    .display-1 {
+        font-size: 4rem;
+    }
+
+    .pros .h5 {
+        font-size: 1.1rem;
+    }
+}
