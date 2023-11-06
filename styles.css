@@ -220,3 +220,17 @@ img.circle-thumb-small {
     width: auto;
     height: 50px;
 }
+
+/* ---------- FAQ Section --------------------*/
+
+.faq-section {
+    padding: var(--section-padding);
+  }
+  
+  .faq-section h2 {
+    font-size: 3.5rem;
+  }
+  
+  .faq-section .container p {
+    color: #07162980;
+  }
