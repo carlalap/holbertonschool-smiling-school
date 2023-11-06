@@ -17,7 +17,7 @@ header {
   header a:hover {
     text-decoration: none;
     border-bottom: 1px solid white;
-    color: #c371ff!important;
+    color: #C371FF!important; 
 }
 
 
@@ -138,19 +138,27 @@ button hover/active: opacity: 0.9*/
 
 /*** --------- Carousel of quotes ------- ***/
 
-    .bg-violet {
-        background-color: #c271ff!important;
+.bg-violet {
+    background-color: #c271ff!important;
+}
+
+.carousel-item {
+    padding-right: 100px;
+    padding-left: 100px;
     }
-    
-    .carousel-item {
-        padding-right: 100px;
-        padding-left: 100px;
-      }
-    
-    img.circle-thumb {
-        width: 150px;
-        height: 150px;
-    }
+
+img.circle-thumb {
+    width: 150px;
+    height: 150px;
+}
+
+.play-image {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 45px;
+    left: 37%;
+}
 
 /* ---- Popular videos Section ---- */
 
@@ -207,7 +215,7 @@ img.circle-thumb-small {
 }
 
 
-/* ---+++++++  Pricing - header/ Hero Section  +++++++++++++++++++++++++++*/
+/* ---+++++++  Pricing WEBSITE - header/ Hero Section  +++++++++++++++++++++++++++*/
 
 .pricing {
     background-image: url("images/pic_2.jpg")!important;
@@ -225,12 +233,48 @@ img.circle-thumb-small {
 
 .faq-section {
     padding: var(--section-padding);
-  }
+}
   
-  .faq-section h2 {
-    font-size: 3.5rem;
-  }
+.faq-section h2 {
+  font-size: 3.5rem;
+}
   
-  .faq-section .container p {
-    color: #07162980;
-  }
+.faq-section .container p {
+  color: #07162980;
+}
+
+/* +++++++++++++ COURSES WEBPAGE - header/ Hero Section +++++++++*/
+
+.courseSection {
+    background-image: url("images/pic_3.jpg")!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.courseFont {
+    font-size: 32px;
+    font-family: 'Coiny'!important;
+    font-weight: 400;
+}
+
+
+/** ++++++++++++ COURSES WEBPAGE - Filters Section ++++------------- ***/
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.search-filter {
+    background-color: #d066c6 !important;
+    border-radius: 3px;
+}
+
+.search-filter input {
+    background-color: #d066c6;
+}
+
+.form-control
+::placeholder {
+  color: white; 
+}
