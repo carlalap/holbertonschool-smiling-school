@@ -152,5 +152,38 @@ button hover/active: opacity: 0.9*/
         height: 150px;
     }
 
-/*** ------   ------- ***/
+/* ---- Popular videos Section ---- */
+
+/*
+.video-card {
+    width: 250px;
+}
+*/
+
+img.circle-thumb {
+    width: 150px;
+    height: 150px;
+}
+
+img.logo {
+    height: 30px;
+}
+
+img.star {
+    height: 15px;
+    width: 15px;
+}
+
+img.circle-thumb-small {
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-control-prev img,
+.carousel-control-next img {
+    width: 30px; 
+    height: 50px;
+}
+
+/* ---- Popular videos Section ---- */
 
