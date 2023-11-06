@@ -207,5 +207,16 @@ img.circle-thumb-small {
 }
 
 
-/* ++++++++++++++++++++++++                    +++++++++++++++++++++++++++*/
+/* ---+++++++  Pricing - header/ Hero Section  +++++++++++++++++++++++++++*/
 
+.pricing {
+    background-image: url("images/pic_2.jpg")!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logoP {
+    width: auto;
+    height: 50px;
+}
