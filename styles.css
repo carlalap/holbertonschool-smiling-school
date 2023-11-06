@@ -194,7 +194,18 @@ img.circle-thumb-small {
 
 /* ---- Free membership Section ---- */
 
-    .bg-sectionfree {
-        background-color: #071629;    
-    }
+
+.bg-sectionfree {
+    background-color: #071629;    
+}
     
+
+/* ---- FOOTER Section ---- */
+
+.social > svg {
+    fill: white;
+}
+
+
+/* ++++++++++++++++++++++++                    +++++++++++++++++++++++++++*/
+
